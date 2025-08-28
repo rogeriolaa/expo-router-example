@@ -1,7 +1,7 @@
-#Expo Router Protected Routes Demo
+Expo Router Protected Routes Demo
 A React Native demo showcasing secure and organized navigation using Expo Router.
 
-##Features
+## Features
 
 - File-based routing with Expo Router for intuitive navigation
 
@@ -15,7 +15,7 @@ A React Native demo showcasing secure and organized navigation using Expo Router
 
 - Clean and minimal styling for clear UI feedback
 
-Project Structure
+## Project Structure
 
 ```
 /app
@@ -35,11 +35,12 @@ Project Structure
 
 - Admin: Admin-only screen with role check
 
-- How Route Protection Works
-  Routes under (main)/ are wrapped in conditional logic:
+## How Route Protection Works
 
-If the user is not authenticated, they get redirected to the (main)/index page.
+- Routes under (main)/ are wrapped in conditional logic:
 
-If the user lacks the admin role, access to the admin screen is blocked and redirected to the (main)/index page.
+- If the user is not authenticated, they get redirected to the (main)/index page.
 
-This uses Expo Router’s <Stack.Protected> guard inside the (main)/\_layout.txs file.
+- If the user lacks the admin role, access to the admin screen is blocked and redirected to the (main)/index page.
+
+- This uses Expo Router’s <Stack.Protected> guard inside the (main)/\_layout.txs file.
