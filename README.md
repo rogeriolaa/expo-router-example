@@ -1,4 +1,5 @@
-Expo Router Protected Routes Demo
+# Expo Router Protected Routes Demo
+
 A React Native demo showcasing secure and organized navigation using Expo Router.
 
 ## Features
